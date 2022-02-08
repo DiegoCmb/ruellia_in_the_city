@@ -3,6 +3,7 @@
 
 library(googlesheets4) 
 library (tidyverse)
+install.packages("googledrive")
 
 ## Para dar permisos  ----
 gs4_deauth()
